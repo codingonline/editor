@@ -1,0 +1,257 @@
+div.panel, div.menu{
+	font-family: Arial
+}
+
+/**
+ * Icons
+ */
+.explorerAddProject {
+	background: url(../images/icons/new_web_project.gif) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.explorerAddPackage {
+	background: url(../images/icons/newfolder_wiz.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.explorerAddFile {
+	background: url(../images/icons/newfile_wiz.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.explorerRemove {
+	background: url(../images/icons/delete_edit.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.explorerRefresh {
+	background: url(../images/app_icons.png) no-repeat 50% -480px
+		transparent !important;
+	height: 24px !important;
+	margin: 0 auto;
+}
+
+.import{
+	background: url(../images/icons/import_edit.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+.package {
+	background: url(../images/filetree.png) no-repeat -48px -16px
+		transparent !important;
+}
+
+.h {
+	background: url(../images/h.png) no-repeat transparent !important;
+}
+
+.cpp {
+	background: url(../images/cpp.png) no-repeat transparent !important;
+}
+
+.class,.class_template {
+	background: url(../images/class.gif) no-repeat transparent !important;
+}
+
+.private_variable {
+	background: url(../images/field_private.png) no-repeat transparent
+		!important;
+}
+
+.public_function,.function {
+	background: url(../images/method_public.png) no-repeat transparent
+		!important;
+}
+
+.private_function {
+	background: url(../images/method_private.png) no-repeat transparent
+		!important;
+}
+
+.protected_function {
+	background: url(../images/method_protected.png) no-repeat transparent
+		!important;
+}
+
+.public_variable,.variable {
+	background: url(../images/field_public.png) no-repeat transparent
+		!important;
+}
+
+.protected_variable {
+	background: url(../images/field_protected.png) no-repeat transparent
+		!important;
+}
+
+.save {
+	background: url(../images/icons/save_edit.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+	padding: auto;
+}
+
+.saveall{
+	background: url(../images/icons/saveall_edit.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.redo {
+	background:  url(../images/icons/redo_edit.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.undo {
+	background:  url(../images/icons/undo_edit.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.copy {
+	background: url(../images/icons/copy_edit.png) no-repeat center center;
+	height: 16px;
+	margin: 0 auto;
+}
+
+.delete {
+	background: url(../images/icons/delete_edit.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.file {
+	background: url(../images/icons/file.png) no-repeat center center;
+	height: 16px;
+	margin: 0 auto;
+}
+
+.buildRun {
+	background:  url(../images/icons/external_tools.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.run {
+	background:  url(../images/icons/run_exc.png) no-repeat center center;
+	height: 16px !important;
+	margin: 0 auto;
+}
+
+.collapseall{
+	background: url(../images/icons/collapseall.png) no-repeat center center;
+    height: 16px;
+    margin: 0 auto;
+}
+
+.suspend {
+	background: url(../images/icons/suspend_co.png) no-repeat !important;
+	height: 16px !important;
+}
+
+.terminate {
+	background: url(../images/terminate.png) no-repeat !important;
+	height: 16px !important;
+	/*width:26px !important;*/
+}
+
+.debug {
+	background: url(../images/debug.gif) no-repeat center center;
+	height: 16px !important;
+}
+
+.stepInto {
+	background: url(../images/step_into.gif) no-repeat center center;
+	height: 16px !important;
+}
+
+.stepOver {
+	background: url(../images/step_over.gif) no-repeat center center;
+	height: 16px !important;
+}
+
+.resume {
+	background: url(../images/resume.gif) no-repeat center center !important;
+	height: 16px !important;
+}
+
+.runToLine {
+	background: url(../images/runtoline.gif) no-repeat center center !important;
+	height: 16px !important;
+}
+
+.toolbarLineVertical {
+	background: url(../images/toolbar_line_vertical.png) repeat-y 0 5px
+		transparent !important;
+	height: 26px !important;
+	width: 22px !important;
+}
+
+.ace_breakpoint {
+	background: url(../images/breakpoint.png) no-repeat;
+}
+
+.debug_highlight {
+	background: rgba(255, 50, 50, 0.4);
+	position: absolute;
+	width: 100% !important;
+	left: 0 !important;
+}
+
+.console {
+    max-width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;  
+	margin: 5px 0 5px 8px;
+	word-wrap: break-word;
+	height: 170px;
+}
+
+#console_output>pre {
+	margin: 0px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+#console_output {
+	width: 100%;
+	overflow-x:hidden;
+	font-size: 14px;
+	word-wrap: break-word; 
+}
+
+#console_input {
+	width: 100%;
+	font-family: monospace;
+}
+
+#console_input>div{
+	float: left;
+	width: 100%
+}
+#console_input>div>input{
+	border : 0;
+	resize : none;
+	outline : none;
+	font-size: 14px;
+	width: 95%;
+	margin-bottom: 8px;
+	background: #DAF3DD;
+}
+.selected{
+	background: gray;
+}
+/* div.panel{
+	height: inherit;
+}
+div.tabs-panels{
+	height: inherit;
+}
+div.panel-body{
+	height: inherit;
+} */

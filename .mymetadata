@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="pop2016-editor"
+  id="myeclipse.1438844572292"
+  context-root="/ide"
+  j2ee-spec="5.0"
+  archive="pop2016-editor.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

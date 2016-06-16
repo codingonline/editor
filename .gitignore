@@ -1,0 +1,5 @@
+*.class
+pop2016-editor.war
+*.sh
+*~
+/WebRoot/WEB-INF/classes/
