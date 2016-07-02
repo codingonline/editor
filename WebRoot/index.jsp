@@ -1,6 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%@page import="cn.edu.pku.sei.model.*"%>
-<%@page import="cn.edu.pku.sei.jdbc.*"%>
+<%@page import="model.*"%>
+<%@page import="jdbc.*"%>
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://"
